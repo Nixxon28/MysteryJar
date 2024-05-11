@@ -9,13 +9,15 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Bush
   m_Shader: {fileID: 4800000, guid: c723bf599da5bf2418887cb5d81e4600, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _COLOR2ENABLE_ON
-  - _RAYGLOBALENABLEWIND_ON
+  - _ENABLEWIND_ON
   - _SECONDCOLOROVERLAYTYPE_VERTEX_POSITION
   - _SMOOTHNESSSOURCE_SMOOTHNESS_R
   m_InvalidKeywords:
-  - _ENABLEWIND_ON
+  - _RAYGLOBALENABLEWIND_ON
   - _SECONDCOLOROVERLAYTYPE_VERTEXPOSITION
   - _SMOOTHNESSSOURCE_R
   m_LightmapFlags: 4
@@ -24,6 +26,7 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -107,7 +110,7 @@ Material:
     - _LockbyVcoordinates: 0
     - _Metallic: 0
     - _Mode: 0
-    - _NormalScale: 1
+    - _NormalScale: 9.39
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _Power: 1.5
@@ -115,9 +118,9 @@ Material:
     - _RAYGlobalEnableWind: 1
     - _Scale: 1
     - _SecondColorFade: 0.12
-    - _SecondColorOffset: -0.45
+    - _SecondColorOffset: 0.25
     - _SecondColorOverlayType: 1
-    - _Smoothness: 0.25
+    - _Smoothness: 0
     - _SmoothnessSource: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -147,7 +150,7 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MainColor: {r: 0.16995415, g: 0.43142202, b: 0.475, a: 0}
-    - _SecondColor: {r: 0, g: 0.6313726, b: 0.46187922, a: 0}
+    - _MainColor: {r: 0, g: 0.23773581, b: 0.059778456, a: 0}
+    - _SecondColor: {r: 0.3163009, g: 0.81886786, b: 0, a: 0}
     - _Vector0: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
